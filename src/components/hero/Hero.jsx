@@ -21,14 +21,14 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm Syera Muti'ah Nabila
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Web Developer",
+                "Architecture",
                 2000,
-                "Freelancer",
+                "Designer",
                 2000,
                 "",
               ]}
@@ -41,7 +41,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              I am a fresh graduate student from Sriwijaya University
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -105,11 +105,11 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src='/src/assets/profile_pic_syera.png'
               // src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
+            {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
@@ -120,7 +120,7 @@ const Hero = () => {
                   className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
