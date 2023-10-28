@@ -49,17 +49,17 @@ const Skills = ({ darkMode }) => {
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar logo={AutocadLogo} name={"AutoCAD"} value={95} />
-                <ProgressBar logo={EnscapeLogo} name={"Enscape"} value={88} />
+                <ProgressBar logo={EnscapeLogo} name={"Enscape"} value={77} />
                 <ProgressBar
                   logo={SketchupLogo}
                   name={"SketchUp"}
                   value={80}
                 />
-                <ProgressBar logo={LumionLogo} name={"Lumion"} value={80} />
+                <ProgressBar logo={LumionLogo} name={"Lumion"} value={70} />
                 <ProgressBar
                   logo={PowerPointLogo}
                   name={"PowerPoint"}
-                  value={80}
+                  value={90}
                 />
                 {/* <img src={logoCircle} alt="" /> */}
               </div>

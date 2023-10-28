@@ -3,12 +3,14 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiFillInstagram,
+  AiFillMail,
+  AiFillGoogleCircle,
 } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import resumePDF from "../../assets/Resume_Syera.pdf";
 
 
 const Hero = () => {
@@ -21,16 +23,16 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm Syera Muti'ah Nabila
+              Hello, I'm Syera Muti'ah
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
                 "Architecture",
                 2000,
-                "Designer",
+                "Designing",
                 2000,
-                "",
+                ""
               ]}
               speed={30}
               wrapper="h2"
@@ -39,7 +41,7 @@ const Hero = () => {
             />
             <p
               // data-aos="fade-up"
-              className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
+              className=" text-[1.1rem] font-medium w-4/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
               I am a fresh graduate student from Sriwijaya University
             </p>
@@ -49,7 +51,7 @@ const Hero = () => {
               href=""
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span> Hire Me</span>
+              <span>Hire Me</span>
             </a>
             <a
               href={resumePDF}
@@ -67,12 +69,6 @@ const Hero = () => {
               data-aos-duration="1500"
               className=" flex gap-5"
             >
-              {/* <li>
-                <a href="">
-                  {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
-                </a>
-              </li> */}
               <li>
                 <a href="https://www.linkedin.com/in/syera-muti-ah-nabila-720715235/">
                   {" "}
@@ -86,15 +82,15 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.facebook.com/syera.mutiah">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQLwLvzKQXQhRtVzvCxjkfWsjBzDQjZNvddJlkWXxBrdhDnbPphJjpNlgkzPJpPbhJCSNw">
                   {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillMail className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>

@@ -1,28 +1,42 @@
-
-
 export const data = [
   {
     id: 1,
-    img: 'https://i.postimg.cc/VkRWdHWx/57214s81.jpg',
-    title: "Multimedia Web",
-    desc: "",
+    img: "https://ik.imagekit.io/renz/hunian_km7.png?updatedAt=1698488704602",
+    title: "Hunian KM.7",
+    desc: "Hunian KM.7 merupakan tempat tinggal yang mengusung tema klasik untuk mendapatkan kesan bangunan yang elegan dan berkelas.",
     link: "",
     git: "",
   },
   {
     id: 2,
-    img: 'https://i.postimg.cc/Bv75CLyN/4167022.jpg',
-    title: "Tarvel Agency",
+    img: "https://ik.imagekit.io/renz/resto_bu_lies.png?updatedAt=1698488531291",
+    title: "Resto Bu Lies",
+    desc: "Resto Bu Lies merupakan restoran keluarga yang ingin menciptakan suasana yang nyaman. Resto ini menerapkan konsep soft and pastel pada fasad bangunannya untuk menambah kesan indah pada bangunan, serta memberikan aksen material.",
     link: "",
     git: "",
   },
   {
     id: 3,
-    img: 'https://i.postimg.cc/wBjcJcW7/5890625.jpg',
-    title: "Music Player",
-    desc: "",
+    img: "https://ik.imagekit.io/renz/anagata_tower.png?updatedAt=1698489445068",
+    title: "Anagata Tower",
+    desc: "Anagata Tower diartikan dalam bahasa sangsekerta sebagai masa depan. Dengan bentuk bertingkat yang mengartikan perkembangan masa ke masa. Anagata tower dapat diartikan sebagai bangunan yang tak luput dari masa ke masa dengan kemajuan teknologi, globalisasi, modernisasi.",
     link: "",
     git: "",
-  }
-  
+  },
+  {
+    id: 4,
+    img: "https://ik.imagekit.io/renz/koppi_warehouse.png?updatedAt=1698489553203",
+    title: "Koppi Warehouse",
+    desc: "Koppi Warehouse is one of the contemporary cafes in Palembang City, located on Way Hitam. Koppi Warehouse was designed with a Neo Roman concept to give a classic impression.",
+    link: "",
+    git: "",
+  },
+  {
+    id: 5,
+    img: "https://ik.imagekit.io/renz/lingkar_tanjak.png?updatedAt=1698489748984",
+    title: "Lingkar Tanjak",
+    desc: 'Lingkar tanjak, nama yang terkonsep dari 2 kata, yaitu "Lingkar" merupakan bentuk sirkulasi utama dari taman ini yang memberikan kesetaraan maupun kestabilan dan "Tanjak" yang merupakan bentuk landmark dari taman ini, yang terinspirasi dari bentuk topi khas Palembang yaitu "Topi Tanjak".',
+    link: "",
+    git: "",
+  },
 ];
