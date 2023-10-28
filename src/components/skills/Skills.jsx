@@ -2,7 +2,7 @@ import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { IoLogoHtml5, IoLogoCss3, IoLogoGoogle, IoMdLeaf, IoMdHappy, IoMdGift, IoMdGlobe, IoMdFlower, IoMdFemale, IoMdConstruct, IoIosConstruct, IoIosHappy, IoIosGift, IoIosFlower, IoIosHeart } from "react-icons/io";
 
 
 import {
@@ -16,6 +16,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
+// import AutocadLogo from "../../assets/autocad.png";
 import AutocadLogo from "../../assets/autocad.png";
 import EnscapeLogo from "../../assets/enscape.png"
 import SketchupLogo from "../../assets/sketchup.png"
@@ -53,7 +54,7 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar
                   logo={SketchupLogo}
                   name={"SketchUp"}
-                  value={80}
+                  value={85}
                 />
                 <ProgressBar logo={LumionLogo} name={"Lumion"} value={70} />
                 <ProgressBar
@@ -61,7 +62,6 @@ const Skills = ({ darkMode }) => {
                   name={"PowerPoint"}
                   value={90}
                 />
-                {/* <img src={logoCircle} alt="" /> */}
               </div>
             </div>
           </div>
@@ -69,33 +69,33 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={<IoIosHeart />}
                 black={"white"}
                 white={"black"}
-                skill={"Node Js"}
+                skill={"Heart"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={<IoIosHappy />}
                 black={"white"}
                 white={"black"}
-                skill={"MongoDB"}
+                skill={"Happy"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<IoIosConstruct />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Construct"}
               />
               <SkillBox
                 className=""
                 logo={
-                  <GrCode/>
+                  <IoIosFlower/>
                 }
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Flower"}
               />
               {/* <SkillBox
                 className=""

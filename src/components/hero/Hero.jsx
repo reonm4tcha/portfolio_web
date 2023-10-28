@@ -30,9 +30,10 @@ const Hero = () => {
               sequence={[
                 "Architecture",
                 2000,
-                "Designing",
+                "Design",
                 2000,
-                ""
+                "Freelance",
+                2000,
               ]}
               speed={30}
               wrapper="h2"
@@ -47,12 +48,12 @@ const Hero = () => {
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
-            <a
+            {/* <a
               href=""
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span>Hire Me</span>
-            </a>
+            </a> */}
             <a
               href={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
@@ -70,25 +71,25 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://www.linkedin.com/in/syera-muti-ah-nabila-720715235/">
+                <a href="https://www.linkedin.com/in/syera-muti-ah-nabila-720715235/" target="_blank">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/syeramutiah/">
+                <a href="https://www.instagram.com/syeramutiah/" target="_blank">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/syera.mutiah">
+                <a href="https://www.facebook.com/syera.mutiah" target="_blank">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQLwLvzKQXQhRtVzvCxjkfWsjBzDQjZNvddJlkWXxBrdhDnbPphJjpNlgkzPJpPbhJCSNw">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQLwLvzKQXQhRtVzvCxjkfWsjBzDQjZNvddJlkWXxBrdhDnbPphJjpNlgkzPJpPbhJCSNw" target="_blank">
                   {" "}
                   <AiFillMail className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
