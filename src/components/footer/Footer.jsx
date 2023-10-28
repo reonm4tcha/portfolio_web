@@ -41,7 +41,8 @@ const Footer = () => {
             <p>Instagram</p>
           </a>
         </div>
-        <div className="sm:text-[12px]">
+        <div className="sm:text-[12px] text-center">
+        <p>Made With Love</p>
           | Copyright &copy; <span>2023 Dev Renz </span> All rights reserved
           <a href="#"></a> |
         </div>
