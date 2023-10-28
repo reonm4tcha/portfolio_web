@@ -67,20 +67,20 @@ const Hero = () => {
               data-aos-duration="1500"
               className=" flex gap-5"
             >
-              <li>
+              {/* <li>
                 <a href="">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/syera-muti-ah-nabila-720715235/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/syeramutiah/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -107,7 +107,7 @@ const Hero = () => {
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
               src='https://ik.imagekit.io/renz/profile_pic_syera.png?updatedAt=1698472315802'
               // src={mine}
-              alt="mine"
+              alt="syera"
             />
             {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">

@@ -16,6 +16,12 @@ import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
+import AutocadLogo from "../../assets/autocad.png";
+import EnscapeLogo from "../../assets/enscape.png"
+import SketchupLogo from "../../assets/sketchup.png"
+import LumionLogo from "../../assets/lumion.png"
+import PowerPointLogo from "../../assets/powerpoint_logo.png"
+
 const Skills = ({ darkMode }) => {
   return (
     <div id="skills">
@@ -42,19 +48,20 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
+                <ProgressBar logo={AutocadLogo} name={"AutoCAD"} value={95} />
+                <ProgressBar logo={EnscapeLogo} name={"Enscape"} value={88} />
                 <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
+                  logo={SketchupLogo}
+                  name={"SketchUp"}
                   value={80}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar logo={LumionLogo} name={"Lumion"} value={80} />
                 <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
+                  logo={PowerPointLogo}
+                  name={"PowerPoint"}
                   value={80}
                 />
+                {/* <img src={logoCircle} alt="" /> */}
               </div>
             </div>
           </div>
