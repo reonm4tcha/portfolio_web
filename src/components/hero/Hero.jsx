@@ -105,7 +105,7 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='/src/assets/profile_pic_syera.png'
+              src='https://ik.imagekit.io/renz/profile_pic_syera.png?updatedAt=1698472315802'
               // src={mine}
               alt="mine"
             />
