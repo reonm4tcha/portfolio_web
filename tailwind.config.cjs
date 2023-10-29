@@ -36,6 +36,8 @@ module.exports = {
     extend: {
       colors: {
         "text-yellow-500": "#ffc312",
+        "bg-color-2": "#CFDEF3",
+        "bg-color-1": "#E0EAFC",
       },
     },
   },
