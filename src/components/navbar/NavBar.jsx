@@ -6,23 +6,23 @@ import { RxCross2 } from "react-icons/rx";
 const navItems = [
   {
     id: 0,
-    name: "home",
+    name: "Home",
   },
   {
     id: 1,
-    name: "skills",
+    name: "Skills",
   },
   {
     id: 2,
-    name: "works",
+    name: "Works",
   },
   {
     id: 3,
-    name: "resume",
+    name: "Resume",
   },
   {
     id: 4,
-    name: "contact",
+    name: "Contact",
   },
 ];
 
@@ -97,7 +97,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={item.id === 4 ? `#footer` : `#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
+                  className={`cursor-pointer text-black hover:text-yellow-600 font-bold text-lg ${
                     item.name === activeIndex ? "text-yellow-600" : ""
                   }`}
                 >
@@ -105,12 +105,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 </a>
               </li>
             ))}
-            {/* <a
-              href=""
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
-            >
-              HIRE ME
-            </a> */}
           </ul>
         </div>
       </nav>

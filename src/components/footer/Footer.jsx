@@ -11,15 +11,6 @@ const Footer = () => {
           Let's Talk
         </h2>
         <div className=" flex items-center justify-center gap-8 sm:gap-5">
-          {/* <a 
-          data-aos="fade-up" data-aos-duration="1000"
-
-            href=""
-            className="box font-medium text-white   flex items-center justify-center flex-col"
-          >
-            <FaTelegramPlane className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Telegram</p>
-          </a> */}
           <a
             data-aos="fade-up"
             data-aos-duration="1200"
@@ -42,7 +33,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px] text-center">
-          <p>Made With Love</p>| Copyright &copy; <span>2023 Dev Renz </span>{" "}
+          <p>Made With Love</p>| Copyright &copy; <span>2023 Dev by Renz </span>{" "}
           All rights reserved
           <a href="#"></a> |
         </div>
