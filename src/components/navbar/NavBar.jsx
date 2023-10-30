@@ -6,23 +6,23 @@ import { RxCross2 } from "react-icons/rx";
 const navItems = [
   {
     id: 0,
-    name: "Home",
+    name: "home",
   },
   {
     id: 1,
-    name: "Skills",
+    name: "skills",
   },
   {
     id: 2,
-    name: "Works",
+    name: "works",
   },
   {
     id: 3,
-    name: "Resume",
+    name: "resume",
   },
   {
     id: 4,
-    name: "Contact",
+    name: "contact",
   },
 ];
 
