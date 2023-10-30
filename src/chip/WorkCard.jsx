@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
-import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const WorkCard = () => {
@@ -39,17 +38,8 @@ const WorkCard = () => {
                     className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
                     <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    {/* <p className=" text-black">Demo</p> */}
                   </Link>
                   <br className="w-[2px] bg-white" />
-                  {/* <Link
-                    to={data.git}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                  >
-                    <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Code</p>
-                  </Link> */}
                 </div>
               </div>
             </POPUP>

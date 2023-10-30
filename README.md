@@ -1,3 +1,3 @@
-# Portfolio
+# Portfolio Syera
 
-LINK: https://sandip-portfoliojs.netlify.app/
+LINK: https://syera-porto.netlify.app/

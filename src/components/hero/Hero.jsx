@@ -50,12 +50,6 @@ const Hero = () => {
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
-            {/* <a
-              href=""
-              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
-            >
-              <span>Hire Me</span>
-            </a> */}
             <a
               href={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
@@ -114,21 +108,8 @@ const Hero = () => {
               data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
               src="https://ik.imagekit.io/renz/profile_pic_syera.png?updatedAt=1698472315802"
-              // src={mine}
-              alt="syera"
+              alt="Syera"
             />
-            {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
-              <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
-                <img
-                  className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
-                  alt=""
-                />
-                <FaPlay
-                  className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                />
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
