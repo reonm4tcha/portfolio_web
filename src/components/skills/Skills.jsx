@@ -2,23 +2,23 @@ import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
-import {
-  IoLogoHtml5,
-  IoLogoCss3,
-  IoLogoGoogle,
-  IoMdLeaf,
-  IoMdHappy,
-  IoMdGift,
-  IoMdGlobe,
-  IoMdFlower,
-  IoMdFemale,
-  IoMdConstruct,
-  IoIosConstruct,
-  IoIosHappy,
-  IoIosGift,
-  IoIosFlower,
-  IoIosHeart,
-} from "react-icons/io";
+// import {
+//   IoLogoHtml5,
+//   IoLogoCss3,
+//   IoLogoGoogle,
+//   IoMdLeaf,
+//   IoMdHappy,
+//   IoMdGift,
+//   IoMdGlobe,
+//   IoMdFlower,
+//   IoMdFemale,
+//   IoMdConstruct,
+//   IoIosConstruct,
+//   IoIosHappy,
+//   IoIosGift,
+//   IoIosFlower,
+//   IoIosHeart,
+// } from "react-icons/io";
 
 import {
   IoIosConstruct,
