@@ -2,8 +2,23 @@ import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
-import { IoLogoHtml5, IoLogoCss3, IoLogoGoogle, IoMdLeaf, IoMdHappy, IoMdGift, IoMdGlobe, IoMdFlower, IoMdFemale, IoMdConstruct, IoIosConstruct, IoIosHappy, IoIosGift, IoIosFlower, IoIosHeart } from "react-icons/io";
-
+import {
+  IoLogoHtml5,
+  IoLogoCss3,
+  IoLogoGoogle,
+  IoMdLeaf,
+  IoMdHappy,
+  IoMdGift,
+  IoMdGlobe,
+  IoMdFlower,
+  IoMdFemale,
+  IoMdConstruct,
+  IoIosConstruct,
+  IoIosHappy,
+  IoIosGift,
+  IoIosFlower,
+  IoIosHeart,
+} from "react-icons/io";
 
 import {
   SiJavascript,
@@ -18,10 +33,10 @@ import { IoLogoNodejs } from "react-icons/io";
 
 // import AutocadLogo from "../../assets/autocad.png";
 import AutocadLogo from "../../assets/autocad.png";
-import EnscapeLogo from "../../assets/enscape.png"
-import SketchupLogo from "../../assets/sketchup.png"
-import LumionLogo from "../../assets/lumion.png"
-import PowerPointLogo from "../../assets/powerpoint_logo.png"
+import EnscapeLogo from "../../assets/enscape.png";
+import SketchupLogo from "../../assets/sketchup.png";
+import LumionLogo from "../../assets/lumion.png";
+import PowerPointLogo from "../../assets/powerpoint_logo.png";
 
 const Skills = ({ darkMode }) => {
   return (
@@ -51,11 +66,7 @@ const Skills = ({ darkMode }) => {
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar logo={AutocadLogo} name={"AutoCAD"} value={95} />
                 <ProgressBar logo={EnscapeLogo} name={"Enscape"} value={77} />
-                <ProgressBar
-                  logo={SketchupLogo}
-                  name={"SketchUp"}
-                  value={85}
-                />
+                <ProgressBar logo={SketchupLogo} name={"SketchUp"} value={85} />
                 <ProgressBar logo={LumionLogo} name={"Lumion"} value={70} />
                 <ProgressBar
                   logo={PowerPointLogo}
@@ -90,9 +101,7 @@ const Skills = ({ darkMode }) => {
               />
               <SkillBox
                 className=""
-                logo={
-                  <IoIosFlower/>
-                }
+                logo={<IoIosFlower />}
                 black={"black"}
                 white={"white"}
                 skill={"Flower"}
